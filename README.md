@@ -37,9 +37,9 @@ Restart ComfyUI after installation.
 2. Install Requirements
 
 Activate your ComfyUI environment and run:
-
+```
 pip install -r requirements.txt
-
+```
 Minimum dependencies:
 
 aiohttp
@@ -60,22 +60,26 @@ https://ai.google.dev/
 
 Create a Gemini API key.
 
-2. Set Environment Variable
+2. in .env file change GEMINI_API_KEY=YOUR_API_KEY to your actual API-key.
+
+OR 
+
+3. Set Environment Variable
 
 Windows (PowerShell):
-
+```
 setx GEMINI_API_KEY "YOUR_API_KEY"
-
+```
 Restart terminal and ComfyUI after setting it.
 
 macOS / Linux:
-
+```
 export GEMINI_API_KEY="YOUR_API_KEY"
-
+```
 To verify:
-
+```
 echo $GEMINI_API_KEY
-
+```
 ------------------------------------------------------------
 
 # Supported Models
